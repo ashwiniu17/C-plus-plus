@@ -15,16 +15,19 @@ float volume(float breadth,float height,float lenght){
 }
 int main(){
     float side , radius,height;
-    float breadth,length,height;
+    float breadth,length;
 
     cout<<"Enter side of cube:"<<endl;
     cin>>side;
+    cout<<"Volume of cube:"<<volume(side)<<endl;
 
     cout<<"Enter radius and height of cylinder"<<endl;
     cin>>radius>>height;
+    cout<<"Volume of cylinder:"<<volume(radius,height)<<endl;
 
     cout<<"Enter length , breadth , height of recatngle"<<endl;
     cin>>length>>breadth>>height;
+    cout<<"Volume of rectangle:"<<volume(length,height,breadth)<<endl;
 
     return 0;
 
